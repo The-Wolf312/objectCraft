@@ -7,6 +7,6 @@
 //
 
 #import <stdint.h>
-
-int64_t htonll(int64_t vv);
-int64_t ntohll(int64_t vv);
+int64_t zk_htonll(int64_t v);
+int64_t zk_ntohll(int64_t vv);
+//zk_ added in order to allow build to succeed

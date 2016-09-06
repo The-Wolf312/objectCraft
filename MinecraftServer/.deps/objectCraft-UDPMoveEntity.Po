@@ -1,0 +1,976 @@
+MinecraftServer/objectCraft-UDPMoveEntity.o: \
+  MinecraftServer/UDPMoveEntity.m MinecraftServer/UDPMoveEntity.h \
+  MinecraftServer/UDPPacket.h /usr/local/include/ObjFW/ObjFW.h \
+  /usr/local/include/ObjFW/OFObject.h \
+  /usr/local/include/ObjFW/objfw-defs.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/stddef.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/__stddef_max_align_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/stdint.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/stdint.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_int8_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_int16_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_int32_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_int64_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/_types/_uint8_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/_types/_uint16_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/_types/_uint32_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/_types/_uint64_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/cdefs.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/machine/_types.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/i386/_types.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/_types/_intmax_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/_types/_uintmax_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/stdbool.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/limits.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/limits.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/machine/limits.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/i386/limits.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/i386/_limits.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/syslimits.h \
+  /usr/local/include/ObjFW/macros.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/stdio.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/Availability.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/AvailabilityInternal.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/_types.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_va_list.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_size_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_null.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/stdio.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_off_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/secure/_stdio.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/secure/_common.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/stdlib.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/wait.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_pid_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_id_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/signal.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/appleapiopts.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/machine/signal.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/i386/signal.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/machine/_mcontext.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/i386/_mcontext.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/mach/i386/_structs.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_ucontext.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_uid_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/resource.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_timeval.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/machine/endian.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/i386/endian.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_endian.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/libkern/i386/_OSByteOrder.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/alloca.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_rune_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_wchar_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/machine/types.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/i386/types.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_dev_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_mode_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_errno_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/strings.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/secure/_string.h \
+  /usr/local/include/ObjFW/platform.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/objc/objc.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/types.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_blkcnt_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_blksize_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_gid_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_in_addr_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_in_port_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_ino_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_ino64_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_key_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_nlink_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_clock_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_time_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_useconds_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fd_def.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fd_set.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fd_clr.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fd_zero.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fd_isset.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fd_copy.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/objc/objc-api.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/AvailabilityMacros.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/TargetConditionals.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/objc/runtime.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/stdarg.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/objc/message.h \
+  /usr/local/include/ObjFW/autorelease.h \
+  /usr/local/include/ObjFW/OFObject+KeyValueCoding.h \
+  /usr/local/include/ObjFW/OFKeyValueCoding.h \
+  /usr/local/include/ObjFW/OFObject+Serialization.h \
+  /usr/local/include/ObjFW/OFBlock.h /usr/local/include/ObjFW/block.h \
+  /usr/local/include/ObjFW/OFAutoreleasePool.h \
+  /usr/local/include/ObjFW/OFString.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/inttypes.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/inttypes.h \
+  /usr/local/include/ObjFW/OFSerialization.h \
+  /usr/local/include/ObjFW/OFJSONRepresentation.h \
+  /usr/local/include/ObjFW/OFMessagePackRepresentation.h \
+  /usr/local/include/ObjFW/OFConstantString.h \
+  /usr/local/include/ObjFW/OFMutableString.h \
+  /usr/local/include/ObjFW/OFString+CryptoHashing.h \
+  /usr/local/include/ObjFW/OFString+JSONValue.h \
+  /usr/local/include/ObjFW/OFString+Serialization.h \
+  /usr/local/include/ObjFW/OFString+URLEncoding.h \
+  /usr/local/include/ObjFW/OFString+XMLEscaping.h \
+  /usr/local/include/ObjFW/OFString+XMLUnescaping.h \
+  /usr/local/include/ObjFW/OFDataArray.h \
+  /usr/local/include/ObjFW/OFDataArray+CryptoHashing.h \
+  /usr/local/include/ObjFW/OFDataArray+MessagePackValue.h \
+  /usr/local/include/ObjFW/OFBigDataArray.h \
+  /usr/local/include/ObjFW/OFArray.h \
+  /usr/local/include/ObjFW/OFCollection.h \
+  /usr/local/include/ObjFW/OFEnumerator.h \
+  /usr/local/include/ObjFW/OFMutableArray.h \
+  /usr/local/include/ObjFW/OFList.h \
+  /usr/local/include/ObjFW/OFSortedList.h \
+  /usr/local/include/ObjFW/OFDictionary.h \
+  /usr/local/include/ObjFW/OFMutableDictionary.h \
+  /usr/local/include/ObjFW/OFMapTable.h /usr/local/include/ObjFW/OFSet.h \
+  /usr/local/include/ObjFW/OFMutableSet.h \
+  /usr/local/include/ObjFW/OFCountedSet.h \
+  /usr/local/include/ObjFW/OFNull.h \
+  /usr/local/include/ObjFW/OFIntrospection.h \
+  /usr/local/include/ObjFW/OFNumber.h /usr/local/include/ObjFW/OFDate.h \
+  /usr/local/include/ObjFW/OFURL.h /usr/local/include/ObjFW/OFStream.h \
+  /usr/local/include/ObjFW/OFKernelEventObserver.h \
+  /usr/local/include/ObjFW/socket.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/socket.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/machine/_param.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/i386/_param.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/net/net_kev.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_sa_family_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_socklen_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_iovec_t.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/netinet/in.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/netinet6/in6.h \
+  /usr/local/include/ObjFW/OFStdIOStream.h \
+  /usr/local/include/ObjFW/OFDeflateStream.h \
+  /usr/local/include/ObjFW/OFDeflate64Stream.h \
+  /usr/local/include/ObjFW/OFGZIPStream.h \
+  /usr/local/include/ObjFW/OFTarArchive.h \
+  /usr/local/include/ObjFW/OFTarArchiveEntry.h \
+  /usr/local/include/ObjFW/OFZIPArchive.h \
+  /usr/local/include/ObjFW/OFZIPArchiveEntry.h \
+  /usr/local/include/ObjFW/OFFile.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/stat.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_timespec.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_s_ifmt.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_filesec_t.h \
+  /usr/local/include/ObjFW/OFSeekableStream.h \
+  /usr/local/include/ObjFW/OFFileManager.h \
+  /usr/local/include/ObjFW/OFINIFile.h \
+  /usr/local/include/ObjFW/OFINICategory.h \
+  /usr/local/include/ObjFW/OFSettings.h \
+  /usr/local/include/ObjFW/OFStreamSocket.h \
+  /usr/local/include/ObjFW/OFTCPSocket.h \
+  /usr/local/include/ObjFW/OFUDPSocket.h \
+  /usr/local/include/ObjFW/OFTLSSocket.h \
+  /usr/local/include/ObjFW/OFHTTPRequest.h \
+  /usr/local/include/ObjFW/OFHTTPResponse.h \
+  /usr/local/include/ObjFW/OFHTTPClient.h \
+  /usr/local/include/ObjFW/OFHTTPServer.h \
+  /usr/local/include/ObjFW/OFProcess.h \
+  /usr/local/include/ObjFW/OFCryptoHash.h \
+  /usr/local/include/ObjFW/OFMD5Hash.h \
+  /usr/local/include/ObjFW/OFRIPEMD160Hash.h \
+  /usr/local/include/ObjFW/OFSHA1Hash.h \
+  /usr/local/include/ObjFW/OFSHA224Hash.h \
+  /usr/local/include/ObjFW/OFSHA224Or256Hash.h \
+  /usr/local/include/ObjFW/OFSHA256Hash.h \
+  /usr/local/include/ObjFW/OFSHA384Hash.h \
+  /usr/local/include/ObjFW/OFSHA384Or512Hash.h \
+  /usr/local/include/ObjFW/OFSHA512Hash.h \
+  /usr/local/include/ObjFW/OFHMAC.h \
+  /usr/local/include/ObjFW/OFXMLAttribute.h \
+  /usr/local/include/ObjFW/OFXMLNode.h \
+  /usr/local/include/ObjFW/OFXMLElement.h \
+  /usr/local/include/ObjFW/OFXMLElement+Serialization.h \
+  /usr/local/include/ObjFW/OFXMLCharacters.h \
+  /usr/local/include/ObjFW/OFXMLCDATA.h \
+  /usr/local/include/ObjFW/OFXMLComment.h \
+  /usr/local/include/ObjFW/OFXMLProcessingInstructions.h \
+  /usr/local/include/ObjFW/OFXMLParser.h \
+  /usr/local/include/ObjFW/OFXMLElementBuilder.h \
+  /usr/local/include/ObjFW/OFMessagePackExtension.h \
+  /usr/local/include/ObjFW/OFApplication.h \
+  /usr/local/include/ObjFW/OFOptionsParser.h \
+  /usr/local/include/ObjFW/OFSystemInfo.h \
+  /usr/local/include/ObjFW/OFTimer.h \
+  /usr/local/include/ObjFW/OFRunLoop.h \
+  /usr/local/include/ObjFW/OFAllocFailedException.h \
+  /usr/local/include/ObjFW/OFException.h \
+  /usr/local/include/ObjFW/OFAcceptFailedException.h \
+  /usr/local/include/ObjFW/OFAddressTranslationFailedException.h \
+  /usr/local/include/ObjFW/OFAlreadyConnectedException.h \
+  /usr/local/include/ObjFW/OFBindFailedException.h \
+  /usr/local/include/ObjFW/OFChangeCurrentDirectoryPathFailedException.h \
+  /usr/local/include/ObjFW/OFChangeOwnerFailedException.h \
+  /usr/local/include/ObjFW/OFChangePermissionsFailedException.h \
+  /usr/local/include/ObjFW/OFChecksumFailedException.h \
+  /usr/local/include/ObjFW/OFConditionBroadcastFailedException.h \
+  /usr/local/include/ObjFW/OFConditionSignalFailedException.h \
+  /usr/local/include/ObjFW/OFConditionStillWaitingException.h \
+  /usr/local/include/ObjFW/OFConditionWaitFailedException.h \
+  /usr/local/include/ObjFW/OFConnectionFailedException.h \
+  /usr/local/include/ObjFW/OFCopyItemFailedException.h \
+  /usr/local/include/ObjFW/OFCreateDirectoryFailedException.h \
+  /usr/local/include/ObjFW/OFCreateSymbolicLinkFailedException.h \
+  /usr/local/include/ObjFW/OFEnumerationMutationException.h \
+  /usr/local/include/ObjFW/OFGetOptionFailedException.h \
+  /usr/local/include/ObjFW/OFHashAlreadyCalculatedException.h \
+  /usr/local/include/ObjFW/OFHTTPRequestFailedException.h \
+  /usr/local/include/ObjFW/OFInitializationFailedException.h \
+  /usr/local/include/ObjFW/OFInvalidArgumentException.h \
+  /usr/local/include/ObjFW/OFInvalidEncodingException.h \
+  /usr/local/include/ObjFW/OFInvalidFormatException.h \
+  /usr/local/include/ObjFW/OFInvalidJSONException.h \
+  /usr/local/include/ObjFW/OFInvalidServerReplyException.h \
+  /usr/local/include/ObjFW/OFLinkFailedException.h \
+  /usr/local/include/ObjFW/OFListenFailedException.h \
+  /usr/local/include/ObjFW/OFLockFailedException.h \
+  /usr/local/include/ObjFW/OFLocking.h \
+  /usr/local/include/ObjFW/OFMalformedXMLException.h \
+  /usr/local/include/ObjFW/OFMemoryNotPartOfObjectException.h \
+  /usr/local/include/ObjFW/OFMoveItemFailedException.h \
+  /usr/local/include/ObjFW/OFNotImplementedException.h \
+  /usr/local/include/ObjFW/OFNotOpenException.h \
+  /usr/local/include/ObjFW/OFObserveFailedException.h \
+  /usr/local/include/ObjFW/OFOpenItemFailedException.h \
+  /usr/local/include/ObjFW/OFOutOfMemoryException.h \
+  /usr/local/include/ObjFW/OFOutOfRangeException.h \
+  /usr/local/include/ObjFW/OFReadFailedException.h \
+  /usr/local/include/ObjFW/OFReadOrWriteFailedException.h \
+  /usr/local/include/ObjFW/OFRemoveItemFailedException.h \
+  /usr/local/include/ObjFW/OFSeekFailedException.h \
+  /usr/local/include/ObjFW/OFSetOptionFailedException.h \
+  /usr/local/include/ObjFW/OFStatItemFailedException.h \
+  /usr/local/include/ObjFW/OFStillLockedException.h \
+  /usr/local/include/ObjFW/OFThreadJoinFailedException.h \
+  /usr/local/include/ObjFW/OFThreadStartFailedException.h \
+  /usr/local/include/ObjFW/OFThreadStillRunningException.h \
+  /usr/local/include/ObjFW/OFTruncatedDataException.h \
+  /usr/local/include/ObjFW/OFUnboundNamespaceException.h \
+  /usr/local/include/ObjFW/OFUnboundPrefixException.h \
+  /usr/local/include/ObjFW/OFUndefinedKeyException.h \
+  /usr/local/include/ObjFW/OFUnknownXMLEntityException.h \
+  /usr/local/include/ObjFW/OFUnlockFailedException.h \
+  /usr/local/include/ObjFW/OFUnsupportedProtocolException.h \
+  /usr/local/include/ObjFW/OFUnsupportedVersionException.h \
+  /usr/local/include/ObjFW/OFWriteFailedException.h \
+  /usr/local/include/ObjFW/OFPlugin.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/dlfcn.h \
+  /usr/local/include/ObjFW/atomic.h \
+  /usr/local/include/ObjFW/atomic_x86.h \
+  /usr/local/include/ObjFW/OFThread.h \
+  /usr/local/include/ObjFW/threading.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/math.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/pthread.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/pthread/pthread_impl.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/pthread/sched.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/time.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/pthread/qos.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/qos.h \
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_mach_port_t.h \
+  /usr/local/include/ObjFW/OFThreadPool.h \
+  /usr/local/include/ObjFW/OFMutex.h \
+  /usr/local/include/ObjFW/OFRecursiveMutex.h \
+  /usr/local/include/ObjFW/OFCondition.h \
+  /usr/local/include/ObjFW/base64.h /usr/local/include/ObjFW/crc32.h \
+  /usr/local/include/ObjFW/instance.h \
+  /usr/local/include/ObjFW/of_asprintf.h \
+  /usr/local/include/ObjFW/of_strptime.h \
+  /usr/local/include/ObjFW/resolver.h /usr/local/include/ObjFW/pbkdf2.h \
+  MinecraftServer/MovingEntity.h MinecraftServer/Entity.h \
+  MinecraftServer/OFDataArray+IntReader.h MinecraftServer/int24_t.h \
+  MinecraftServer/OFDataArray+IntWriter.h \
+  MinecraftServer/OFDataArray+FloatReader.h \
+  MinecraftServer/OFDataArray+FloatWriter.h
+
+MinecraftServer/UDPMoveEntity.h:
+
+MinecraftServer/UDPPacket.h:
+
+/usr/local/include/ObjFW/ObjFW.h:
+
+/usr/local/include/ObjFW/OFObject.h:
+
+/usr/local/include/ObjFW/objfw-defs.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/stddef.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/__stddef_max_align_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/stdint.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/stdint.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_int8_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_int16_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_int32_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_int64_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/_types/_uint8_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/_types/_uint16_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/_types/_uint32_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/_types/_uint64_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/cdefs.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_symbol_aliasing.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_posix_availability.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/machine/_types.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/i386/_types.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_types.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_intptr_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_uintptr_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/_types/_intmax_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/_types/_uintmax_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/stdbool.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/limits.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/limits.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/machine/limits.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/i386/limits.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/i386/_limits.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/syslimits.h:
+
+/usr/local/include/ObjFW/macros.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/stdio.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/Availability.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/AvailabilityInternal.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/_types.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_va_list.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_size_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_null.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/stdio.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_off_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_ssize_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/secure/_stdio.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/secure/_common.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/stdlib.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/wait.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_pid_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_id_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/signal.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/appleapiopts.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/machine/signal.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/i386/signal.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/machine/_mcontext.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/i386/_mcontext.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/mach/i386/_structs.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_sigaltstack.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_ucontext.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_sigset_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_uid_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/resource.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_timeval.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/machine/endian.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/i386/endian.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_endian.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/libkern/_OSByteOrder.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/libkern/i386/_OSByteOrder.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/alloca.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_ct_rune_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_rune_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_wchar_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/machine/types.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/i386/types.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_u_int8_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_u_int16_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_u_int32_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_u_int64_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_dev_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_mode_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_rsize_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_errno_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/strings.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/secure/_string.h:
+
+/usr/local/include/ObjFW/platform.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/objc/objc.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/types.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_blkcnt_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_blksize_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_gid_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_in_addr_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_in_port_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_ino_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_ino64_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_key_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_nlink_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_clock_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_time_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_useconds_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_suseconds_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fd_def.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fd_setsize.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fd_set.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fd_clr.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fd_zero.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fd_isset.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fd_copy.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/objc/objc-api.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/AvailabilityMacros.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/TargetConditionals.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/objc/runtime.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/stdarg.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/objc/message.h:
+
+/usr/local/include/ObjFW/autorelease.h:
+
+/usr/local/include/ObjFW/OFObject+KeyValueCoding.h:
+
+/usr/local/include/ObjFW/OFKeyValueCoding.h:
+
+/usr/local/include/ObjFW/OFObject+Serialization.h:
+
+/usr/local/include/ObjFW/OFBlock.h:
+
+/usr/local/include/ObjFW/block.h:
+
+/usr/local/include/ObjFW/OFAutoreleasePool.h:
+
+/usr/local/include/ObjFW/OFString.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/inttypes.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/inttypes.h:
+
+/usr/local/include/ObjFW/OFSerialization.h:
+
+/usr/local/include/ObjFW/OFJSONRepresentation.h:
+
+/usr/local/include/ObjFW/OFMessagePackRepresentation.h:
+
+/usr/local/include/ObjFW/OFConstantString.h:
+
+/usr/local/include/ObjFW/OFMutableString.h:
+
+/usr/local/include/ObjFW/OFString+CryptoHashing.h:
+
+/usr/local/include/ObjFW/OFString+JSONValue.h:
+
+/usr/local/include/ObjFW/OFString+Serialization.h:
+
+/usr/local/include/ObjFW/OFString+URLEncoding.h:
+
+/usr/local/include/ObjFW/OFString+XMLEscaping.h:
+
+/usr/local/include/ObjFW/OFString+XMLUnescaping.h:
+
+/usr/local/include/ObjFW/OFDataArray.h:
+
+/usr/local/include/ObjFW/OFDataArray+CryptoHashing.h:
+
+/usr/local/include/ObjFW/OFDataArray+MessagePackValue.h:
+
+/usr/local/include/ObjFW/OFBigDataArray.h:
+
+/usr/local/include/ObjFW/OFArray.h:
+
+/usr/local/include/ObjFW/OFCollection.h:
+
+/usr/local/include/ObjFW/OFEnumerator.h:
+
+/usr/local/include/ObjFW/OFMutableArray.h:
+
+/usr/local/include/ObjFW/OFList.h:
+
+/usr/local/include/ObjFW/OFSortedList.h:
+
+/usr/local/include/ObjFW/OFDictionary.h:
+
+/usr/local/include/ObjFW/OFMutableDictionary.h:
+
+/usr/local/include/ObjFW/OFMapTable.h:
+
+/usr/local/include/ObjFW/OFSet.h:
+
+/usr/local/include/ObjFW/OFMutableSet.h:
+
+/usr/local/include/ObjFW/OFCountedSet.h:
+
+/usr/local/include/ObjFW/OFNull.h:
+
+/usr/local/include/ObjFW/OFIntrospection.h:
+
+/usr/local/include/ObjFW/OFNumber.h:
+
+/usr/local/include/ObjFW/OFDate.h:
+
+/usr/local/include/ObjFW/OFURL.h:
+
+/usr/local/include/ObjFW/OFStream.h:
+
+/usr/local/include/ObjFW/OFKernelEventObserver.h:
+
+/usr/local/include/ObjFW/socket.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/socket.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/machine/_param.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/i386/_param.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/net/net_kev.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_sa_family_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_socklen_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_iovec_t.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/netinet/in.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/netinet6/in6.h:
+
+/usr/local/include/ObjFW/OFStdIOStream.h:
+
+/usr/local/include/ObjFW/OFDeflateStream.h:
+
+/usr/local/include/ObjFW/OFDeflate64Stream.h:
+
+/usr/local/include/ObjFW/OFGZIPStream.h:
+
+/usr/local/include/ObjFW/OFTarArchive.h:
+
+/usr/local/include/ObjFW/OFTarArchiveEntry.h:
+
+/usr/local/include/ObjFW/OFZIPArchive.h:
+
+/usr/local/include/ObjFW/OFZIPArchiveEntry.h:
+
+/usr/local/include/ObjFW/OFFile.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/stat.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_timespec.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_s_ifmt.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_filesec_t.h:
+
+/usr/local/include/ObjFW/OFSeekableStream.h:
+
+/usr/local/include/ObjFW/OFFileManager.h:
+
+/usr/local/include/ObjFW/OFINIFile.h:
+
+/usr/local/include/ObjFW/OFINICategory.h:
+
+/usr/local/include/ObjFW/OFSettings.h:
+
+/usr/local/include/ObjFW/OFStreamSocket.h:
+
+/usr/local/include/ObjFW/OFTCPSocket.h:
+
+/usr/local/include/ObjFW/OFUDPSocket.h:
+
+/usr/local/include/ObjFW/OFTLSSocket.h:
+
+/usr/local/include/ObjFW/OFHTTPRequest.h:
+
+/usr/local/include/ObjFW/OFHTTPResponse.h:
+
+/usr/local/include/ObjFW/OFHTTPClient.h:
+
+/usr/local/include/ObjFW/OFHTTPServer.h:
+
+/usr/local/include/ObjFW/OFProcess.h:
+
+/usr/local/include/ObjFW/OFCryptoHash.h:
+
+/usr/local/include/ObjFW/OFMD5Hash.h:
+
+/usr/local/include/ObjFW/OFRIPEMD160Hash.h:
+
+/usr/local/include/ObjFW/OFSHA1Hash.h:
+
+/usr/local/include/ObjFW/OFSHA224Hash.h:
+
+/usr/local/include/ObjFW/OFSHA224Or256Hash.h:
+
+/usr/local/include/ObjFW/OFSHA256Hash.h:
+
+/usr/local/include/ObjFW/OFSHA384Hash.h:
+
+/usr/local/include/ObjFW/OFSHA384Or512Hash.h:
+
+/usr/local/include/ObjFW/OFSHA512Hash.h:
+
+/usr/local/include/ObjFW/OFHMAC.h:
+
+/usr/local/include/ObjFW/OFXMLAttribute.h:
+
+/usr/local/include/ObjFW/OFXMLNode.h:
+
+/usr/local/include/ObjFW/OFXMLElement.h:
+
+/usr/local/include/ObjFW/OFXMLElement+Serialization.h:
+
+/usr/local/include/ObjFW/OFXMLCharacters.h:
+
+/usr/local/include/ObjFW/OFXMLCDATA.h:
+
+/usr/local/include/ObjFW/OFXMLComment.h:
+
+/usr/local/include/ObjFW/OFXMLProcessingInstructions.h:
+
+/usr/local/include/ObjFW/OFXMLParser.h:
+
+/usr/local/include/ObjFW/OFXMLElementBuilder.h:
+
+/usr/local/include/ObjFW/OFMessagePackExtension.h:
+
+/usr/local/include/ObjFW/OFApplication.h:
+
+/usr/local/include/ObjFW/OFOptionsParser.h:
+
+/usr/local/include/ObjFW/OFSystemInfo.h:
+
+/usr/local/include/ObjFW/OFTimer.h:
+
+/usr/local/include/ObjFW/OFRunLoop.h:
+
+/usr/local/include/ObjFW/OFAllocFailedException.h:
+
+/usr/local/include/ObjFW/OFException.h:
+
+/usr/local/include/ObjFW/OFAcceptFailedException.h:
+
+/usr/local/include/ObjFW/OFAddressTranslationFailedException.h:
+
+/usr/local/include/ObjFW/OFAlreadyConnectedException.h:
+
+/usr/local/include/ObjFW/OFBindFailedException.h:
+
+/usr/local/include/ObjFW/OFChangeCurrentDirectoryPathFailedException.h:
+
+/usr/local/include/ObjFW/OFChangeOwnerFailedException.h:
+
+/usr/local/include/ObjFW/OFChangePermissionsFailedException.h:
+
+/usr/local/include/ObjFW/OFChecksumFailedException.h:
+
+/usr/local/include/ObjFW/OFConditionBroadcastFailedException.h:
+
+/usr/local/include/ObjFW/OFConditionSignalFailedException.h:
+
+/usr/local/include/ObjFW/OFConditionStillWaitingException.h:
+
+/usr/local/include/ObjFW/OFConditionWaitFailedException.h:
+
+/usr/local/include/ObjFW/OFConnectionFailedException.h:
+
+/usr/local/include/ObjFW/OFCopyItemFailedException.h:
+
+/usr/local/include/ObjFW/OFCreateDirectoryFailedException.h:
+
+/usr/local/include/ObjFW/OFCreateSymbolicLinkFailedException.h:
+
+/usr/local/include/ObjFW/OFEnumerationMutationException.h:
+
+/usr/local/include/ObjFW/OFGetOptionFailedException.h:
+
+/usr/local/include/ObjFW/OFHashAlreadyCalculatedException.h:
+
+/usr/local/include/ObjFW/OFHTTPRequestFailedException.h:
+
+/usr/local/include/ObjFW/OFInitializationFailedException.h:
+
+/usr/local/include/ObjFW/OFInvalidArgumentException.h:
+
+/usr/local/include/ObjFW/OFInvalidEncodingException.h:
+
+/usr/local/include/ObjFW/OFInvalidFormatException.h:
+
+/usr/local/include/ObjFW/OFInvalidJSONException.h:
+
+/usr/local/include/ObjFW/OFInvalidServerReplyException.h:
+
+/usr/local/include/ObjFW/OFLinkFailedException.h:
+
+/usr/local/include/ObjFW/OFListenFailedException.h:
+
+/usr/local/include/ObjFW/OFLockFailedException.h:
+
+/usr/local/include/ObjFW/OFLocking.h:
+
+/usr/local/include/ObjFW/OFMalformedXMLException.h:
+
+/usr/local/include/ObjFW/OFMemoryNotPartOfObjectException.h:
+
+/usr/local/include/ObjFW/OFMoveItemFailedException.h:
+
+/usr/local/include/ObjFW/OFNotImplementedException.h:
+
+/usr/local/include/ObjFW/OFNotOpenException.h:
+
+/usr/local/include/ObjFW/OFObserveFailedException.h:
+
+/usr/local/include/ObjFW/OFOpenItemFailedException.h:
+
+/usr/local/include/ObjFW/OFOutOfMemoryException.h:
+
+/usr/local/include/ObjFW/OFOutOfRangeException.h:
+
+/usr/local/include/ObjFW/OFReadFailedException.h:
+
+/usr/local/include/ObjFW/OFReadOrWriteFailedException.h:
+
+/usr/local/include/ObjFW/OFRemoveItemFailedException.h:
+
+/usr/local/include/ObjFW/OFSeekFailedException.h:
+
+/usr/local/include/ObjFW/OFSetOptionFailedException.h:
+
+/usr/local/include/ObjFW/OFStatItemFailedException.h:
+
+/usr/local/include/ObjFW/OFStillLockedException.h:
+
+/usr/local/include/ObjFW/OFThreadJoinFailedException.h:
+
+/usr/local/include/ObjFW/OFThreadStartFailedException.h:
+
+/usr/local/include/ObjFW/OFThreadStillRunningException.h:
+
+/usr/local/include/ObjFW/OFTruncatedDataException.h:
+
+/usr/local/include/ObjFW/OFUnboundNamespaceException.h:
+
+/usr/local/include/ObjFW/OFUnboundPrefixException.h:
+
+/usr/local/include/ObjFW/OFUndefinedKeyException.h:
+
+/usr/local/include/ObjFW/OFUnknownXMLEntityException.h:
+
+/usr/local/include/ObjFW/OFUnlockFailedException.h:
+
+/usr/local/include/ObjFW/OFUnsupportedProtocolException.h:
+
+/usr/local/include/ObjFW/OFUnsupportedVersionException.h:
+
+/usr/local/include/ObjFW/OFWriteFailedException.h:
+
+/usr/local/include/ObjFW/OFPlugin.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/dlfcn.h:
+
+/usr/local/include/ObjFW/atomic.h:
+
+/usr/local/include/ObjFW/atomic_x86.h:
+
+/usr/local/include/ObjFW/OFThread.h:
+
+/usr/local/include/ObjFW/threading.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/math.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/pthread.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/pthread/pthread_impl.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/pthread/sched.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/time.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/pthread/qos.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/qos.h:
+
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/sys/_types/_mach_port_t.h:
+
+/usr/local/include/ObjFW/OFThreadPool.h:
+
+/usr/local/include/ObjFW/OFMutex.h:
+
+/usr/local/include/ObjFW/OFRecursiveMutex.h:
+
+/usr/local/include/ObjFW/OFCondition.h:
+
+/usr/local/include/ObjFW/base64.h:
+
+/usr/local/include/ObjFW/crc32.h:
+
+/usr/local/include/ObjFW/instance.h:
+
+/usr/local/include/ObjFW/of_asprintf.h:
+
+/usr/local/include/ObjFW/of_strptime.h:
+
+/usr/local/include/ObjFW/resolver.h:
+
+/usr/local/include/ObjFW/pbkdf2.h:
+
+MinecraftServer/MovingEntity.h:
+
+MinecraftServer/Entity.h:
+
+MinecraftServer/OFDataArray+IntReader.h:
+
+MinecraftServer/int24_t.h:
+
+MinecraftServer/OFDataArray+IntWriter.h:
+
+MinecraftServer/OFDataArray+FloatReader.h:
+
+MinecraftServer/OFDataArray+FloatWriter.h:

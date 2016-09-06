@@ -30,3 +30,23 @@
 - (void)tcpClientDisconnected:(TCPClientConnection *)tcpClientConnection;
 
 @end
+/*Swift*/
+/*
+ import ObjFW
+ 
+ let UDP_MAX_PACKET_SIZE = 1504//MAX MTU is 1447. 1504 bytes should never be too small
+ 
+ class MinecraftServer: OFObject, OFApplicationDelegate {
+ var running = false
+ var tcpServerSocket: OFTCPSocket!
+ var activeTCPConnections: OFMutableArray!
+ var udpServerSocket: OFUDPSocket!
+ var udpServerSocketBuffer
+ var activeUDPConnections: OFMutableArray!
+ var raknetHandler: RaknetHandler!
+ var worldManager: WorldManager!
+ 
+ func tcpClientDisconnected(tcpClientConnection: TCPClientConnection) {
+ }
+ }
+*/

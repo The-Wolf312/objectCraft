@@ -68,8 +68,8 @@
 		C977BF8A1898647900FD9B38 /* OFDataArray+VarIntReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C977BF891898647900FD9B38 /* OFDataArray+VarIntReader.m */; };
 		C977BF8D1898654400FD9B38 /* OFDataArray+VarIntWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = C977BF8C1898654400FD9B38 /* OFDataArray+VarIntWriter.mm */; };
 		C9AA13B618A12368000D383A /* OFString+DataUsingEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AA13B518A12368000D383A /* OFString+DataUsingEncoding.m */; };
-		C9AA13B818A12494000D383A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AA13B718A12494000D383A /* libz.dylib */; };
-		C9AA13BB18A12DB7000D383A /* libobjfw.7.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E9D005189BA91A0043F279 /* libobjfw.7.0.dylib */; };
+		C9AA13B818A12494000D383A /* libz.1.2.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AA13B718A12494000D383A /* libz.1.2.8.dylib */; };
+		C9AA13BB18A12DB7000D383A /* libobjfw.8.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E9D005189BA91A0043F279 /* libobjfw.8.0.dylib */; };
 		C9B1000718991C5500AB8DB8 /* UDPClientConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B1FFDE18991C5500AB8DB8 /* UDPClientConnection.m */; };
 		C9B1000818991C5500AB8DB8 /* UDPPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B1FFE018991C5500AB8DB8 /* UDPPacket.m */; };
 		C9B1000918991C5500AB8DB8 /* UDPClientConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B1FFE218991C5500AB8DB8 /* UDPClientConnect.m */; };
@@ -240,7 +240,7 @@
 		C977BF8C1898654400FD9B38 /* OFDataArray+VarIntWriter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "OFDataArray+VarIntWriter.mm"; sourceTree = "<group>"; };
 		C9AA13B418A12368000D383A /* OFString+DataUsingEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OFString+DataUsingEncoding.h"; sourceTree = "<group>"; };
 		C9AA13B518A12368000D383A /* OFString+DataUsingEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OFString+DataUsingEncoding.m"; sourceTree = "<group>"; };
-		C9AA13B718A12494000D383A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C9AA13B718A12494000D383A /* libz.1.2.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.8.dylib; path = ../../../../../../../../../usr/local/lib/libz.1.2.8.dylib; sourceTree = SDKROOT; };
 		C9B1000018991C5500AB8DB8 /* UDPAddPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPAddPlayer.m; sourceTree = "<group>"; };
 		C9B1000118991C5500AB8DB8 /* UDPMoveEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPMoveEntity.h; sourceTree = "<group>"; };
 		C9B1000218991C5500AB8DB8 /* UDPMoveEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPMoveEntity.m; sourceTree = "<group>"; };
@@ -292,7 +292,7 @@
 		C9B9A73B18AC410B00C36963 /* AdvancedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedFile.m; sourceTree = "<group>"; };
 		C9B9A73C18AC410B00C36963 /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
 		C9B9A73D18AC410B00C36963 /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
-		C9E9D005189BA91A0043F279 /* libobjfw.7.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjfw.7.0.dylib; path = /usr/local/lib/libobjfw.7.0.dylib; sourceTree = "<absolute>"; };
+		C9E9D005189BA91A0043F279 /* libobjfw.8.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjfw.8.0.dylib; path = /usr/local/lib/libobjfw.8.0.dylib; sourceTree = "<absolute>"; };
 		C9E9D007189BABA20043F279 /* autogen.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = autogen.sh; sourceTree = "<group>"; };
 		C9E9D008189BB2360043F279 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
 		C9EFB5FD189A70E900078CB1 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
@@ -324,8 +324,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9AA13B818A12494000D383A /* libz.dylib in Frameworks */,
-				C9AA13BB18A12DB7000D383A /* libobjfw.7.0.dylib in Frameworks */,
+				C9AA13B818A12494000D383A /* libz.1.2.8.dylib in Frameworks */,
+				C9AA13BB18A12DB7000D383A /* libobjfw.8.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,8 +402,8 @@
 		C918648C1895C53200E78048 /* XCode Related Stuff */ = {
 			isa = PBXGroup;
 			children = (
-				C9E9D005189BA91A0043F279 /* libobjfw.7.0.dylib */,
-				C9AA13B718A12494000D383A /* libz.dylib */,
+				C9E9D005189BA91A0043F279 /* libobjfw.8.0.dylib */,
+				C9AA13B718A12494000D383A /* libz.1.2.8.dylib */,
 				C918648B1895C53200E78048 /* MinecraftServer */,
 			);
 			name = "XCode Related Stuff";
@@ -685,7 +685,7 @@
 /* Begin PBXLegacyTarget section */
 		C999E4F618927FA100E91B51 /* MinecraftServer - Mac - autotools */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "--enabled-debug --with-objfw-lib-path=/usr/local/lib --with-objfw-include-path=/usr/local/include";
+			buildArgumentsString = "--with-objfw-lib-path=/usr/local/lib --with-objfw-include-path=/usr/local/include";
 			buildConfigurationList = C999E4F918927FA100E91B51 /* Build configuration list for PBXLegacyTarget "MinecraftServer - Mac - autotools" */;
 			buildPhases = (
 			);
@@ -723,8 +723,14 @@
 		C9579950189072A000B4CB37 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Victor Brekenfeld";
+				TargetAttributes = {
+					C918648A1895C53200E78048 = {
+						DevelopmentTeam = 2JU477H5UQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = C9579953189072A000B4CB37 /* Build configuration list for PBXProject "MinecraftServer" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -854,6 +860,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = 2JU477H5UQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ObjFW-gbnufvuyjtibmocwzoucwpndzelw/Build/Products/Debug",
@@ -888,6 +896,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = 2JU477H5UQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ObjFW-gbnufvuyjtibmocwzoucwpndzelw/Build/Products/Debug",
@@ -926,13 +936,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -963,14 +979,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
